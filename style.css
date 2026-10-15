@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px 28px;
+    color: #333333;
+    line-height: 1.4;
+}
+
+/* header 영역 (F-01, F-02) */
+header {
+    border-bottom: 2px solid #222222;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+.activity-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.affiliation, .bio, .github-link {
+    font-size: 0.92rem;
+    margin-bottom: 3px;
+}
+
+a {
+    color: #0055cc;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #003399;
+}
+
+/* section 공통 영역 */
+section {
+    margin-bottom: 24px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    border-bottom: 1.5px solid #444444;
+    padding-bottom: 4px;
+}
+
+/* 표(table) 스타일 (F-03) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 6px;
+}
+
+th, td {
+    border: 1px solid #aaaaaa;
+    padding: 6px 10px;
+    font-size: 0.88rem;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+}
+
+.col-date { width: 15%; text-align: center; }
+.col-category { width: 15%; text-align: center; }
+.col-content { width: 50%; }
+.col-role { width: 20%; text-align: center; }
+
+/* 수강 과목 목록 */
+.course-list {
+    margin-top: 6px;
+    padding-left: 20px;
+}
+
+.course-list li {
+    font-size: 0.9rem;
+    margin-bottom: 3px;
+}
+
+/* 주차별 목록 */
+.week-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 6px;
+}
+
+.week-list li {
+    padding: 6px 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    font-size: 0.88rem;
+}
+
+.week-list .done {
+    background-color: #e8f5e9;
+    color: #1b5e20;
+    border-left: 4px solid #2e7d32;
+}
+
+.week-list .done a {
+    color: #1b5e20;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 6px;
+}
+
+.week-list .planned {
+    background-color: #f5f5f5;
+    color: #757575;
+    border-left: 4px solid #bdbdbd;
+}
+
+.week-list .planned span {
+    margin-left: 6px;
+    font-weight: normal;
+}
+
+/* footer 영역 (F-06) */
+footer {
+    margin-top: 32px;
+    padding-top: 14px;
+    border-top: 1px solid #dddddd;
+    text-align: left;
+    color: #666666;
+    font-size: 0.9rem;
+}
