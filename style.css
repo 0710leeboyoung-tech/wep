@@ -67,7 +67,8 @@ th, td {
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #1a73e8;
+    color: #ffffff;
     font-weight: bold;
     text-align: center;
 }
@@ -103,9 +104,9 @@ th {
 }
 
 .week-list .done {
-    background-color: #e8f5e9;
-    color: #1b5e20;
-    border-left: 4px solid #2e7d32;
+    background-color: #fffde7;
+    color: #5d4037;
+    border-left: 4px solid #fbc02d;
 }
 
 .week-list .done a {
