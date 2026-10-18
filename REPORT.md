@@ -72,7 +72,7 @@
 
 | F-01 | 배포 URL을 창 너비 1280px에서 열고, 스크롤 없이(④) ① 활동명 ② 소속 ③ 한 줄 소개(1문장, 글자 수 확인)가 보이는지 확인 | Pass | [캡처](images/check_F01.png) |
 
-| F-02 | ( ) | ( ) | ( ) |
+| F-02 | ① 상단/하단에 GitHub 프로필 링크 표시 및 클릭 시 이동 확인 ② 이메일, 전화번호 등 다른 연락처가 일절 없는지 확인 | (Pass ) | ( ) |
 
 | F-03 | ( ) | ( ) | ( ) |
 
@@ -82,7 +82,7 @@
 
 | F-06 | ( ) | ( ) | ( ) |
 
-| Q-HTML | W3C HTML 검사기(https://validator.w3.org/)로 배포 URL 검사 | ( ) | ( ) |
+| Q-HTML | W3C HTML 검사기(https://( )validator.w3.org/)로 배포 URL 검사 | ( ) | ( ) |
 
 | Q-CSS | W3C CSS 검사기(https://jigsaw.w3.org/css-validator/)로 검사 + 인라인 style 사용 여부 확인 + 창 크기 변경 확인 | ( ) | ( ) |
 
