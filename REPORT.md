@@ -80,13 +80,13 @@
 
 | F-05 | ① 1~15주차 표시 ② 진행 주차 클릭 시 실습 페이지 이동 ③ 미진행 주차 "예정" 표시 및 링크 없음 ④ 진행/예정 주차 색상 구분 확인 | Pass | [캡처](images/check_F05.png ) |
 
-| F-06 | ① 하단에 "최종 수정일: YYYY-MM-DD" 형식 표시 ② 배포 저장소의 마지막 커밋 날짜와 일치하는지 확인 | Pass | ( ) |
+| F-06 | ① 하단에 "최종 수정일: YYYY-MM-DD" 형식 표시 ② 배포 저장소의 마지막 커밋 날짜와 일치하는지 확인 | Pass | [캡처](images/check_F06.png ) |
 
-| Q-HTML | W3C HTML 검사기(https://( )validator.w3.org/)로 배포 URL 검사 | Pass | ( ) |
+| Q-HTML | W3C HTML 검사기(https://( )validator.w3.org/)로 배포 URL 검사 | Pass |  [캡처](images/check_HTML.png ) |
 
-| Q-CSS | W3C CSS 검사기(https://jigsaw.w3.org/css-validator/)로 검사 + 인라인 style 사용 여부 확인 + 창 크기 변경 확인 | Pass | ( ) |
+| Q-CSS | W3C CSS 검사기(https://jigsaw.w3.org/css-validator/)로 검사 + 인라인 style 사용 여부 확인 + 창 크기 변경 확인 | Pass | [캡처](images/check_CSS.png ) |
 
-| Q-DEPLOY | 배포 URL에서 모든 링크 클릭, 모든 이미지 표시 확인 | ( Pass) | ( ) |
+| Q-DEPLOY | 배포 URL에서 모든 링크 클릭, 모든 이미지 표시 확인 | ( Pass) | [캡처](images/check_2.png ) [캡처](images/check_3.png ) [캡처](images/check_5.png ) [캡처](images/check_6.png ) [캡처](images/check_7.png )|
 
 
 
